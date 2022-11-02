@@ -39,6 +39,7 @@ public class Program {
 		
 		System.out.println();
 		System.out.println("Fatura ");
+		System.out.println();
 		System.out.println("Pagamento basico: " + String.format("%.2f", cr.getInvoice().getBasicPayament()));
 		System.out.println("Imposto: " + String.format("%.2f", cr.getInvoice().getTax()));
 		System.out.println("Pagamento total: " + cr.getInvoice().getTotalPayment());
